@@ -1,0 +1,22 @@
+[project]
+name = "scOT"
+version = "1.0.0"
+description = "Thermal foundation model finetuning built on Poseidon (scOT)"
+dependencies = [
+    "torch == 2.0.1",
+    "torchvision == 0.15.2",
+    "numpy",
+    "transformers == 4.29.2",
+    "matplotlib",
+    "accelerate == 0.31.0",
+    "h5py",
+    "pandas",
+    "pyyaml",
+    "wandb",
+    "psutil",
+    "scipy",
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
