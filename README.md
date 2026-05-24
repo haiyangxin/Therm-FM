@@ -1,33 +1,95 @@
-# Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation
+<p align="center">
+  <img src="assets/therm-fm-logo.png" width="140" alt="Therm-FM Logo">
+</p>
 
-This repository contains the official implementation for [Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation](https://arxiv.org/abs/2605.22663).
+<h1 align="center">
+  Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation
+</h1>
 
-Therm-FM adapts a pretrained PDE foundation model to steady-state and transient 3D-IC thermal simulation. It is built on top of [Poseidon](https://arxiv.org/abs/2405.19101) and the `scOT` codebase, with thermal dataset loaders, benchmark configurations, normalization handling, and evaluation scripts for 3D-IC thermal prediction.
+<p align="center">
+  <b>PDE Foundation Model Adaptation for Steady-State and Transient 3D-IC Thermal Simulation</b>
+</p>
 
-![Therm-FM workflow](assets/tcad-pipeline.png)
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.22663">
+    <img src="https://img.shields.io/badge/arXiv-2605.22663-b31b1b.svg" alt="arXiv">
+  </a>
+  <img src="https://img.shields.io/badge/DAC-2026%20Accepted-blue" alt="DAC 2026">
+  <img src="https://img.shields.io/badge/IEEE%20TCAD-Under%20Review-orange" alt="TCAD Under Review">
+  <img src="https://img.shields.io/badge/Task-3D--IC%20Thermal%20Simulation-purple" alt="3D-IC Thermal Simulation">
+  <img src="https://img.shields.io/badge/Foundation%20Model-Poseidon-green" alt="Poseidon">
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.22663"><b>Paper</b></a> ·
+  <a href="#code-datasets-model-checkpoints"><b>Datasets</b></a> ·
+  <a href="#code-datasets-model-checkpoints"><b>Checkpoints</b></a> ·
+  <a href="#highlights"><b>Highlights</b></a>
+</p>
+
+---
+
+This repository contains the official implementation for  
+[**Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation**](https://arxiv.org/abs/2605.22663).
+
+**Therm-FM** adapts a pretrained PDE foundation model to steady-state and transient 3D-IC thermal simulation. It is built on top of [Poseidon](https://arxiv.org/abs/2405.19101) and the `scOT` codebase, with thermal dataset loaders, benchmark configurations, normalization handling, and evaluation scripts for 3D-IC thermal prediction.
+
+<p align="center">
+  <img src="assets/tcad-pipeline.png" width="92%" alt="Therm-FM workflow">
+</p>
+
+---
 
 ## News
 
-- **[May 2026]** We released the arXiv preprint, code, datasets, normalization constants, and model checkpoints for **Therm-FM**.
-- **[May 2026]** **Therm-FM** is an extended journal version currently under review at **IEEE TCAD**.
-- **[DAC 2026]** Our preliminary conference version, **“From Fluid Dynamics to Chip Design: PDE Foundation Models Address the Data Bottleneck in 3D-IC Thermal Simulation,”** has been accepted by the **63rd ACM/IEEE Design Automation Conference (DAC 2026, CCF-A)**.
+> 💐 **[DAC 2026]** The preliminary conference version, **“From Fluid Dynamics to Chip Design: PDE Foundation Models Address the Data Bottleneck in 3D-IC Thermal Simulation,”** has been accepted by the **63rd ACM/IEEE Design Automation Conference (DAC 2026, CCF-A)** 🎉🎉.
 
+> 🚀 **[May 2026]** We released the arXiv preprint, code, datasets, normalization constants, and model checkpoints for **Therm-FM**.
+
+> ☕️ **[May 2026]** **Therm-FM** is an extended journal version currently under review at **IEEE TCAD**.
+
+Compared with the DAC version, **Therm-FM** extends the study from steady-state thermal prediction to both steady-state and transient simulation. It further expands the benchmark with industrial-scale 3D-IC datasets and releases the datasets and checkpoints. We also introduce a thermal-equivalent model to accelerate data generation, together with a multi-fidelity training strategy to reduce high-fidelity simulation cost. In addition, Therm-FM is, to our knowledge, the first work in ML-based thermal simulation to systematically evaluate cross-chip generalization, which we believe is a key capability for practical thermal modeling.
+
+---
 
 ## Highlights
 
-- PDE foundation-model adaptation for 3D-IC thermal simulation.
-- Unified support for steady-state and transient thermal prediction.
-- HotSpot and industrial 3D-IC benchmark support.
-- Thermal-equivalent multi-fidelity training for reduced high-fidelity data cost.
-- Released datasets, normalization constants, and model checkpoints.
-- Evaluation scripts with denormalized RMSE, Max, Mean, MAPE, and PAPE metrics.
+<table>
+  <tr>
+    <td>🔥 <b>Foundation-model adaptation</b></td>
+    <td>PDE foundation-model adaptation for 3D-IC thermal simulation.</td>
+  </tr>
+  <tr>
+    <td>⏱️ <b>Steady + transient</b></td>
+    <td>Unified support for steady-state and transient thermal prediction.</td>
+  </tr>
+  <tr>
+    <td>🏭 <b>Industrial benchmarks</b></td>
+    <td>HotSpot and industrial 3D-IC benchmark support.</td>
+  </tr>
+  <tr>
+    <td>⚡ <b>Multi-fidelity training</b></td>
+    <td>Thermal-equivalent multi-fidelity training for reduced high-fidelity data cost.</td>
+  </tr>
+  <tr>
+    <td>📦 <b>Open resources</b></td>
+    <td>Released datasets, normalization constants, and model checkpoints.</td>
+  </tr>
+  <tr>
+    <td>📊 <b>Thermal metrics</b></td>
+    <td>Evaluation scripts with denormalized RMSE, Max, Mean, MAPE, and PAPE metrics.</td>
+  </tr>
+</table>
 
-## News
+---
 
-- Code released.
-- Dataset download: [Google Drive](https://drive.google.com/drive/u/1/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA)
-- Model checkpoint download: [Google Drive](https://drive.google.com/drive/folders/1yMkLwpMDaNrVXxJlzaOLt9n6G_1MFN_I?usp=sharing)
+## Code, Datasets, Model Checkpoints
 
+| Resource | Status | Link |
+|---|---:|---|
+| Code | ✅ Released | This repository |
+| Datasets | ✅ Released | [Google Drive](https://drive.google.com/drive/u/1/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA) |
+| Model Checkpoints | ✅ Released | [Google Drive](https://drive.google.com/drive/folders/1yMkLwpMDaNrVXxJlzaOLt9n6G_1MFN_I?usp=sharing) |
 ## Installation
 
 Clone this repository and install it in editable mode:
