@@ -18,8 +18,8 @@ Therm-FM adapts a pretrained PDE foundation model to steady-state and transient 
 ## News
 
 - Code released.
-- Dataset download: [coming soon]()
-- Model checkpoint download: [coming soon]()
+- Dataset download: [Google Drive](https://drive.google.com/drive/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA?usp=sharing)
+- Model checkpoint download: [Google Drive](https://drive.google.com/drive/folders/1yMkLwpMDaNrVXxJlzaOLt9n6G_1MFN_I?usp=sharing)
 
 ## Installation
 
@@ -63,7 +63,7 @@ Detailed dataset and checkpoint archive information is provided in the README fi
 
 ## Datasets
 
-Dataset download: [coming soon]()
+Dataset download: [Google Drive](https://drive.google.com/drive/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA?usp=sharing)
 
 After downloading and extracting the dataset archives, the expected layout is:
 
@@ -92,7 +92,7 @@ The dataset release also includes precomputed normalization constants. During tr
 
 ## Model Checkpoints
 
-Model checkpoint download: [coming soon]()
+Model checkpoint download: [Google Drive](https://drive.google.com/drive/folders/1yMkLwpMDaNrVXxJlzaOLt9n6G_1MFN_I?usp=sharing)
 
 After downloading and extracting the model archives, the expected layout is:
 
