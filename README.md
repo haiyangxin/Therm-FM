@@ -6,6 +6,13 @@ Therm-FM adapts a pretrained PDE foundation model to steady-state and transient 
 
 ![Therm-FM workflow](assets/tcad-pipeline.png)
 
+## News
+
+- **[May 2026]** We released the arXiv preprint, code, datasets, normalization constants, and model checkpoints for **Therm-FM**.
+- **[May 2026]** **Therm-FM** is an extended journal version currently under review at **IEEE TCAD**.
+- **[DAC 2026]** Our preliminary conference version, **“From Fluid Dynamics to Chip Design: PDE Foundation Models Address the Data Bottleneck in 3D-IC Thermal Simulation,”** has been accepted by the **63rd ACM/IEEE Design Automation Conference (DAC 2026, CCF-A)**.
+
+
 ## Highlights
 
 - PDE foundation-model adaptation for 3D-IC thermal simulation.
