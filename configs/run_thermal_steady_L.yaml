@@ -25,4 +25,4 @@ batch_size:
 max_grad_norm:
   value: 5.0
 train_ratio:
-  value: 0.8  # # train + val ratio, for HS-SC , HS-QC, HS-OC  is 0.8 ; for IND-8C ,IND-32C  is 0.9
+  value: 0.8  # train + val ratio, for HS-SC , HS-QC, HS-OC  is 0.8 ; for IND-8C ,IND-32C  is 0.9

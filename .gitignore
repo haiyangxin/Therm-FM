@@ -24,6 +24,8 @@ utils/
 
 # Data (download separately)
 data
+therm_fm_dataset/
+therm_fm_models/
 
 # IDE / tooling
 .idea/
@@ -33,3 +35,6 @@ data
 
 # OS
 .DS_Store
+
+# Paper
+*.pdf
