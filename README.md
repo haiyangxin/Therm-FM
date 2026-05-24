@@ -18,7 +18,7 @@ Therm-FM adapts a pretrained PDE foundation model to steady-state and transient 
 ## News
 
 - Code released.
-- Dataset download: [Google Drive](https://drive.google.com/drive/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA?usp=sharing)
+- Dataset download: [Google Drive](https://drive.google.com/drive/u/1/folders/1WzjpOAgeua03F3iLodHlVbTsRhXn1lMA)
 - Model checkpoint download: [Google Drive](https://drive.google.com/drive/folders/1yMkLwpMDaNrVXxJlzaOLt9n6G_1MFN_I?usp=sharing)
 
 ## Installation
