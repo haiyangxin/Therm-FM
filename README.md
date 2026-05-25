@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/therm-fm-logoNew.png" width="500" alt="Therm-FM Logo">
+  <img src="assets/therm-fm-logoNew.png" width="550" alt="Therm-FM Logo">
 </p>
 
 <h1 align="center">
