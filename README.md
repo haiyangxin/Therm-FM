@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/therm-fm-logoNew.png" width="550" alt="Therm-FM Logo">
 </p>
- 
+   
 <h1 align="center">
   Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation
 </h1>
