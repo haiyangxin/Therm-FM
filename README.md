@@ -5,7 +5,7 @@
 <h1 align="center">
   Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation
 </h1>
-
+  
 <p align="center">
   <b>PDE Foundation Model Adaptation for Steady-State and Transient 3D-IC Thermal Simulation</b>
 </p>
