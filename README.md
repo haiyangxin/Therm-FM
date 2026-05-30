@@ -27,7 +27,7 @@
   <a href="#highlights"><b>Highlights</b></a>
 </p>
 
----
+---  
 
 This repository contains the official implementation for  
 [**Therm-FM: Foundation Model is ALL YOU NEED for 3D-ICs Thermal Simulation**](https://arxiv.org/abs/2605.22663).
